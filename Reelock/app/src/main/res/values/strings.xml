@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Reelock</string>
+
+    <string name="status_active">Active — Reels and Shorts will be blocked.</string>
+    <string name="status_inactive">Inactive — turn on the accessibility service below.</string>
+    <string name="button_enable">Enable in accessibility settings</string>
+    <string name="button_open_settings">Open accessibility settings</string>
+    <string name="accessibility_service_description">Detects when Instagram Reels or YouTube Shorts is open and automatically backs out of it.</string>
+
+    <string name="battery_warning">Battery optimization may pause blocking. Exempt the app to keep your streak safe.</string>
+
+    <string name="level_format">Lv. %1$d</string>
+    <string name="fully_grown">fully grown</string>
+    <string name="growth_stage_description">Your growth stage, based on your current streak</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="stat_streak_label">day streak</string>
+    <string name="stat_blocks_label">stopped today</string>
+    <string name="stat_minutes_label">saved today</string>
+
+    <string-array name="growth_stage_names">
+        <item>seed</item>
+        <item>sprout</item>
+        <item>sapling</item>
+        <item>tree</item>
+    </string-array>
+
+    <plurals name="streak_days">
+        <item quantity="one">%d day streak</item>
+        <item quantity="other">%d day streak</item>
+    </plurals>
+
+    <plurals name="grows_into_in_days">
+        <item quantity="one">grows into a %1$s in %2$d day</item>
+        <item quantity="other">grows into a %1$s in %2$d days</item>
+    </plurals>
+</resources>
